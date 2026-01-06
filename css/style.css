@@ -1214,9 +1214,15 @@ textarea {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #000;
   background: #fff;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.header--scrolled {
+  padding: 0.5rem 0;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.98);
 }
 
 .header__content {

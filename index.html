@@ -1,765 +1,918 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Daisuke's portfolio</title>
-    <meta name="description" content="Portfolio Template for Developer" />
 
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Daisuke's portfolio</title>
+  <meta name="description" content="Portfolio Template for Developer" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="./assets/jpeg/profile.jpeg"
-              alt="Ram Maheshwari Logo Image"
-              class="header__logo-img"
-            />
-          </div>
-          <span class="header__logo-sub">Daisuke</span>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/jpeg/profile2.JPG" alt="Ram Maheshwari Logo Image" class="header__logo-img" />
         </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                projects
-              </a>
-            <li class="header__link-wrapper">
-              <a href="./index.html#learnings" class="header__link">
-                learnings
-              </a>
-          <!--
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
-            </li>
-          -->
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
-          </div>
+        <span class="header__logo-sub">Daisuke</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">About </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">
+              projects
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#career" class="header__link">
+              career
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#output" class="header__link">
+              learnings
+            </a>
+          </li>
+          <!-- <li class="header__link-wrapper">
+            <a href="./index.html#learnings" class="header__link">
+              learnings
+            </a>
+          </li> -->
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
         </div>
       </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
+          </li>
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> About </a>
+          </li>
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projects </a>
+          </li>
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#learnings"> Learnings </a>
-            </li>
+          <li class="header__sm-menu-link">
+            <a href="./index.html#career"> Career </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#output"> Output </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#learnings"> Learnings </a>
+          </li>
           <!--
             <li class="header__sm-menu-link">
               <a href="./index.html#contact"> Contact </a>
             </li>
           -->
-          </ul>
-        </div>
+        </ul>
       </div>
-    </header>
-    <section class="home-hero">
-      <div class="home-hero__content">
-        <h1 class="heading-primary">Daisuke's portfolio</h1>
-        <div class="home-hero__info">
-          <!-- <p class="text-primary"></p> -->
-        </div>
-        <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg">projects</a>
-        </div>
-        <div class="home-hero__cta">
-          <a href="./#learnings" class="btn btn--bg">learnings</a>
-        </div>
+    </div>
+  </header>
+  <section class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">Daisuke's portfolio</h1>
+      <div class="home-hero__info">
+        <!-- <p class="text-primary"></p> -->
       </div>
-      <div class="home-hero__socials">
-        <div class="home-hero__social">
-          <a href="https://github.com/DaisukeKikukawa" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/github-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <!-- <div class="home-hero__social">
-          <a href="https://twitter.com/fujishiro380" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/twitter-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div> -->
-        <!-- <div class="home-hero__social">
-          <a href="https://qiita.com/fujishirox" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/qiita-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div> -->
-        <!-- <div class="home-hero__social">
-          <a
-            href="https://www.wantedly.com/id/fujiwara_shohei_110"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-          >
-            <img
-              src="./assets/png/wantedly-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div> -->
+      <div class="home-hero__cta">
+        <a href="./#projects" class="btn btn--bg">projects</a>
       </div>
-      <div class="home-hero__mouse-scroll-cont">
-        <div class="mouse"></div>
+      <div class="home-hero__cta">
+        <a href="./#output" class="btn btn--bg">learnings</a>
       </div>
-    </section>
-    <section id="about" class="about sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">About Me</span>
-            <span class="heading-sec__sub">
-            </span>
-          <span class="heading-sec__sub">
+    </div>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a href="https://github.com/DaisukeKikukawa" class="home-hero__social-icon-link">
+          <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://lapras.com/public/CW6IR8V" class="home-hero__social-icon-link">
+          <img src="./assets/png/lapras.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://qiita.com/Daisuke_Kikukawa" class="home-hero__social-icon-link">
+          <svg fill="#FFFFFF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <title>Qiita</title>
+            <path
+              d="M3.57 8.343a3.653 3.653 0 0 0-1.376.269 3.585 3.585 0 0 0-1.14.738 3.503 3.503 0 0 0-.773 1.102A3.297 3.297 0 0 0 0 11.814a3.28 3.28 0 0 0 .281 1.357 3.535 3.535 0 0 0 .775 1.107A3.636 3.636 0 0 0 3.6 15.29a3.731 3.731 0 0 0 .987-.13 3.657 3.657 0 0 0 .888-.374l.687.698a.579.579 0 0 0 .824 0 .58.58 0 0 0 0-.817l-.624-.624a3.533 3.533 0 0 0 .613-1.022 3.282 3.282 0 0 0 .226-1.208 3.297 3.297 0 0 0-.282-1.362 3.488 3.488 0 0 0-.775-1.102A3.614 3.614 0 0 0 5 8.612a3.657 3.657 0 0 0-1.398-.27 3.653 3.653 0 0 0-.031 0zm11.306.185v1.484h-.765v1.063h.765v2.142c0 .419.053.761.159 1.028a1.56 1.56 0 0 0 .433.63 1.511 1.511 0 0 0 .643.317 2.676 2.676 0 0 0 .694.086h.853v-1.013h-.736a1.25 1.25 0 0 1-.352-.048.713.713 0 0 1-.291-.169.81.81 0 0 1-.2-.324 1.575 1.575 0 0 1-.074-.519v-2.13h1.666v-1.063h-1.66V8.528zM9.4 8.856a.69.69 0 0 0-.69.691.69.69 0 0 0 .69.69.69.69 0 0 0 .691-.69.69.69 0 0 0-.69-.691zm2.771 0a.69.69 0 0 0-.69.691.69.69 0 0 0 .69.69.69.69 0 0 0 .691-.69.69.69 0 0 0-.69-.691zm-8.6.538a2.324 2.324 0 0 1 .03 0 2.35 2.35 0 0 1 .93.187 2.346 2.346 0 0 1 1.264 1.28 2.463 2.463 0 0 1 .186.957 2.444 2.444 0 0 1-.186.957 2.384 2.384 0 0 1-.506.767 2.363 2.363 0 0 1-1.688.698 2.324 2.324 0 0 1-.93-.186 2.376 2.376 0 0 1-.755-.512 2.427 2.427 0 0 1-.699-1.723 2.44 2.44 0 0 1 .699-1.727 2.384 2.384 0 0 1 .756-.511 2.324 2.324 0 0 1 .898-.187zm17.648.773a2.69 2.69 0 0 0-1.02.201 2.49 2.49 0 0 0-.815.552 2.432 2.432 0 0 0-.525.814 2.678 2.678 0 0 0-.186.998 2.644 2.644 0 0 0 .186.997 2.485 2.485 0 0 0 .525.814 2.436 2.436 0 0 0 .815.546 2.697 2.697 0 0 0 1.059.2 2.42 2.42 0 0 0 .518-.056 2.524 2.524 0 0 0 .46-.146 2.426 2.426 0 0 0 .394-.213 2.394 2.394 0 0 0 .329-.263l.065.53H24v-4.829h-.976l-.068.533a2.498 2.498 0 0 0-.322-.26 2.25 2.25 0 0 0-.394-.217 2.616 2.616 0 0 0-.462-.145 2.404 2.404 0 0 0-.521-.056 2.69 2.69 0 0 0-.038 0zm-12.375.844v4.138h1.113V11.01zm2.77 0v4.138h1.114V11.01zm9.72.145a1.592 1.592 0 0 1 .024 0 1.557 1.557 0 0 1 1.098.445 1.495 1.495 0 0 1 .334.495 1.61 1.61 0 0 1 .121.631 1.632 1.632 0 0 1-.121.64 1.551 1.551 0 0 1-.331.498 1.47 1.47 0 0 1-.49.324 1.642 1.642 0 0 1-1.207 0 1.502 1.502 0 0 1-.493-.324 1.52 1.52 0 0 1-.333-.5 1.64 1.64 0 0 1-.122-.638 1.628 1.628 0 0 1 .12-.637 1.524 1.524 0 0 1 .328-.495 1.474 1.474 0 0 1 .49-.323 1.592 1.592 0 0 1 .581-.116z" />
+          </svg>
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://scrapbox.io/daisukekikukawa-50194332/" class="home-hero__social-icon-link">
+          <svg fill="#FFFFFF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <title>Zenn</title>
+            <path
+              d="M.264 23.771h4.984c.264 0 .498-.147.645-.352L19.614.874c.176-.293-.029-.645-.381-.645h-4.72c-.235 0-.44.117-.557.323L.03 23.361c-.088.176.029.41.234.41zM17.445 23.419l6.479-10.408c.205-.323-.029-.733-.41-.733h-4.691c-.176 0-.352.088-.44.235l-6.655 10.643c-.176.264.029.616.352.616h4.779c.234-.001.468-.118.586-.353z" />
+          </svg>
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://daisuke7346.hatenadiary.jp/"
+          class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
+          <img src="./assets/png/hatenablog-logo.svg" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">About Me</span>
+        <span class="heading-sec__sub">
+        </span>
+        <span class="heading-sec__sub">
 
-          </span>
-        </h2>
-        <div class="about__content">
-          <div class="about__content-main">
-            <h3 class="about__content-title">自己紹介</h3>
-            <div class="about__content-details">
-              <p class="about__content-details-para">
-                はじめまして。<strong>菊川大介</strong> と申します。<br>
-                学生時代にプログラミングを触ったことがきっかけで、
-                エンジニアへの転職を決意しプログラミングスクールRunteqに入学。
-                現役のエンジニアのコードレビューを受けながらソフトウェア開発の基礎を学び、チーム開発（スクラム）まで経験しました。<br>
-                技術をもっと楽しみながら、自分が思いついたもの、人が求めるものを、個人でもチームでも実現させられる力を身につけていきたいと思っています。
-              </p>
-              <p class="about__content-details-para">
-                好きなこと：映画、読書、旅行、アニメ、サッカー、サウナ、散歩
-              </p>
-            </div>
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">自己紹介</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              はじめまして。<strong>daisuke</strong> と申します。<br>
+              学生時代にプログラミングを学んだ経験からプログラミングに興味を持ちました。その後、テック系の外部イベントに参加し、三ヶ月でRuby on
+              Railsを用いたアプリの開発を行いました。アプリ開発を通し、モノ作りの面白さを知り、実際に動くアプリケーションを作ることに魅力を感じました。わからないことに対してワクワクしながら調べて、問題を解決することが楽しかったのを覚えています。自分が作った物はとても小規模な物でしたが、より多くの人に影響を与えるようなサービスを作りたいと感じました。好奇心が強くなんでも仕組みをしりたいと思うため、ただ単に自分がサービスを利用するだけの人間ではなく、その仕組みを知り、さらに人に利用してもらえるようなサービスを作る側になりたいと考えエンジニアを目指しました。
+            </p>
+            <!-- <p class="about__content-details-para">
+              好きなこと：映画、読書、旅行、アニメ、サッカー、サウナ、散歩
+            </p> -->
+          </div>
           <!--
             <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
               >Contact</a
             >
           -->
-          </div>
-          <div class="about__content-skills">
-            <h3 class="about__content-title">保有スキル</h3>
-            <div class="skills">
-              <div class="skills__skill">HTML</div>
-              <div class="skills__skill">CSS</div>
-              <div class="skills__skill">Tailwind CSS</div>
-              <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">PHP</div>
-              <div class="skills__skill">Laravel</div>
-              <div class="skills__skill">Ruby</div>
-              <div class="skills__skill">Ruby on Rails</div>
-              <div class="skills__skill">MySQL</div>
-              <div class="skills__skill">Linux</div>
-              <div class="skills__skill">AWS</div>
-              <div class="skills__skill">Git</div>
-              <div class="skills__skill">スクラム開発</div>
-            </div>
-          </div>
-          <div class="about__content-certification">
-            <h3 class="about__content-title">使用可能ツール</h3>
-            <div class="skills">
-              <div class="skills__skill">GitHub</div>
-              <div class="skills__skill">Slack</div>
-              <div class="skills__skill">Notion</div>
-              <div class="skills__skill">Jira</div>
-              <div class="skills__skill">Confluence</div>
-              <div class="skills__skill">Figma</div>
-              <div class="skills__skill">Backlog</div>
-              <div class="skills__skill">Discord</div>
-            </div>
-          </div>
-          <!-- <div class="about__content-certification">
-            <h3 class="about__content-title">保有資格</h3>
-            <div class="skills">
-              <div class="skills__skill">AWS SAA</div>
-              <div class="skills__skill">AWS CLF</div>
-              <div class="skills__skill">ITパスポート</div>
-            </div>
-          </div> -->
         </div>
-      </div>
-    </section>
-    <section id="projects" class="projects sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
-          <span class="heading-sec__sub">
-            <!-- タイトルはGitHubのリポジトリにリンクしています。 -->
-          </span>
-        </h2>
-
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/project-mockup-team2.png"
-                alt="学習レシピ投稿サービスの開発（チーム開発）"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title"><a target="_blank">学習レシピ投稿サービスの開発（チーム開発）</a></h3>
-              <p class="projects__row-content-desc">
-                サービスのアイディア出しから技術選定、要件定義、設計（DB、デザイン、画面遷移図等）、見積もり、実装に至るまでの全てをチーム内で実施し、オリジナルのサービスを制作しました。
-              </p>
-              <p class="projects__row-content-desc">
-                開発手法：スクラム開発（スプリント期間は２週間 実装は週２０時間まで）<br>
-                スプリントレビューではスクール側の講師をステークホルダーとしてフィードバックをもらい、KPTAによる振り返りを行いました。
-              </p>
-              <ul class="projects__row-content-desc">
-                <li><strong>サービス概要</strong>
-                  <ul>
-                    <li>資格試験などの合格のために、ユーザーが行った学習内容をレシピとして投稿、または他者が投稿したレシピを自らの学習のために閲覧できるサービスを目指して開発。</li>
-                  </ul>
-                </li>
-                <li><strong>担当タスク</strong>
-                  <ul>
-                    <li>・プロフィール表示/編集画面の仮デザイン作業</li>
-                    <li>・ユーザー関連のDB定義書の作成</li>
-                    <li>・各画面で共通するコンポーネントの作成</li>
-                    <li>・プロフィール表示/編集機能</li>
-                    <li>・レシピ閲覧/投稿/編集機能の実装  </li>
-                  </ul>
-                </li>
-                <li><strong>レビュー担当</strong>
-                  <ul>
-                    <li>・ER図の作成</li>
-                    <li>・ダッシュボード（新着レシピ一覧）表示機能</li>
-                  </ul>
-                </li>
-                <li><strong>意識したポイント</strong>
-                  <ul>
-                    <li>・ビューの実装においては、デザイン担当メンバーのデザインカンプを忠実に再現することを意識して実装を行った。</li>
-                    <li>・レシピ投稿時のファイルアップロード機能について、機能テストを作成してバリデーションをチェックするテストを実施した。</li>
-                  </ul>
-                </li>
-              </ul>
-              <div class="about__content-skills">
-                <div class="skills">
-                  <div class="skills__skill">Laravel</div>
-                  <div class="skills__skill">MySQL</div>
-                  <div class="skills__skill">Docker</div>
-                </div>
-              </div>
-              <!-- <a
-                href="./project-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              > -->
-            </div>
+        <div class="about__content-main">
+          <h3 class="about__content-title">活かせる経験・スキル</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              私の強みは、新しい技術を素早く習得し、チームに早期に適応する能力です。
+              タレントマネジメントシステムの開発現場に配属された際には、試用期間である3ヶ月の間に素早くキャッチアップを行い、新規機能であるタグ機能の実装を行いました。また、現場に入った際には自ら積極的にコミュニケーションをとり、チームメンバーや協力会社の方々と良好な関係を築くことに努めてきました。その結果、素早く現場に馴染み、スムーズにプロジェクトを進めることに成功しました。
+              前職ではRailsを用いたプロダクトの開発に携わり、設計から開発まで一人で担当し、プロジェクト全体を見渡して効率的に進める力を培いました。これらの経験から適応力とコミュニケーション力が自身の武器だと考えているため、引き続きこの部分を伸ばし会社に貢献したいと考えています。
+              また、会社員として働きつつ、エンジニアとしての力をさらに伸ばすため、自主的にプログラミング学習ができる環境を探して参加しました。業務後も自主的に学習を継続し自己研鑽に励みました。
+            </p>
           </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/project-mockup-self.png"
-                alt="使用に基づく追加機能の実装"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title"><a  target="_blank">仕様に基づく追加機能の実装</a></h3>
-              <ul class="projects__row-content-desc">
-                <li>Railsにより制作されたプロジェクト/タスク管理サービスに対して、仕様に基づく機能追加を行いました。</li>
-                <li>・入力欄の追加及びDBへのカラム追加</li>
-                <li>・タスクに対するコメント機能の実装</li>
-                <li>・ファイルアップロード処理の実装</li>
-                <li>・カスタムエラーページの作成</li>
-                <li>・ダッシュボードにおけるタスク進捗率の表示</li>
-              </ul>
-              <p class="projects__row-content-desc">
-                参考書：PHPフレームワークLaravel Webアプリケーション開発 バージョン8.x対応
-              </p>
-              <div class="about__content-skills">
-                <div class="skills">
-                  <div class="skills__skill">Laravel</div>
-                  <div class="skills__skill">MySQL</div>
-                  <div class="skills__skill">Docker</div>
-                </div>
-              </div>
-              <!-- <a
-                href="./project-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              > -->
-            </div>
+        </div>
+        <div class="about__content-certification">
+          <h3 class="about__content-title">使用可能ツール</h3>
+          <div class="skills">
+            <div class="skills__skill">GitHub</div>
+            <div class="skills__skill">Slack</div>
+            <div class="skills__skill">Notion</div>
+            <div class="skills__skill">Jira</div>
+            <div class="skills__skill">Confluence</div>
+            <div class="skills__skill">Figma</div>
+            <div class="skills__skill">Backlog</div>
+            <div class="skills__skill">Discord</div>
           </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/project-mockup-team1.png"
-                alt="タスク管理システムへの機能追加（チーム開発）"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title"><a  target="_blank">既存のシステムへの追加機能の検討/実装（チーム開発）</a></h3>
-              <p class="projects__row-content-desc">
-                既存のプロジェクト/タスク管理サービスに対して追加すべき機能をチームで話し合い、タスクを割り振り、実装を行いました。
-              </p>
-              <p class="projects__row-content-desc">
-                ワークフローには<strong>git-flow</strong>を採用し、マージ前にはプルリクエストから相互レビューを実施しました。
-              </p>
-              <ul class="projects__row-content-desc">
-                <li><strong>実装を担当したタスク</strong>
-                  <ul>
-                    <li>・ダッシュボードにログインユーザーの担当タスク一覧を表示する機能</li>
-                  </ul>
-                </li>
-                <li><strong>レビューを担当したタスク</strong>
-                  <ul>
-                    <li>・課題作成/編集画面における入力項目の追加作業</li>
-                  </ul>
-                </li>
-                <li><strong>意識したポイント</strong>
-                  <ul>
-                    <il>・実装でのプルリクエストの際はデシジョンテーブル及び同値分割・境界値分析によるテストを実施した。</li>
-                    <li>・レビューの際、入力値に対するチェックが必要だったため、同値分割・境界値分析によるテストを行った。</li>
-                  </ul>
-                </li>
-              </ul>
-              <div class="about__content-skills">
-                <div class="skills">
-                  <div class="skills__skill">Laravel</div>
-                  <div class="skills__skill">MySQL</div>
-                  <div class="skills__skill">Docker</div>
-                </div>
-              </div>
-              <!-- <a
-                href="./project-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              > -->
-            </div>
+        </div>
+        <div class="about__content-skills">
+          <h3 class="about__content-title">保有スキル</h3>
+          <div class="skills">
+            <div class="skills__skill">HTML</div>
+            <div class="skills__skill">CSS</div>
+            <div class="skills__skill">Tailwind CSS</div>
+            <div class="skills__skill">JavaScript</div>
+            <div class="skills__skill">TypeScript</div>
+            <div class="skills__skill">Express</div>
+            <div class="skills__skill">PHP</div>
+            <div class="skills__skill">Laravel</div>
+            <div class="skills__skill">Ruby</div>
+            <div class="skills__skill">Ruby on Rails</div>
+            <div class="skills__skill">MySQL</div>
+            <div class="skills__skill">Linux</div>
+            <div class="skills__skill">Git</div>
           </div>
         </div>
       </div>
-    </section>
-    <section id="learnings" class="learnings sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Learnings</span>
-          <span class="heading-sec__sub">
-            私のこれまでの学習経歴と参考にした書籍を整理してみました。
-          </span>
-        </h2>
+    </div>
+  </section>
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Projects</span>
+        <span class="heading-sec__sub">
+          これまで携わってきた主な開発案件をまとめました。
+        </span>
+      </h2>
 
-        <div class="learnings__content">
-          <div class="learnings__row">
-            <div class="learnings__row-img-cont">
-              <img
-                src="https://m.media-amazon.com/images/I/41a8QSuhu7L.jpg"
-                alt="1冊ですべて身につくHTML ＆ CSSとWebデザイン入門講座"
-                class="learnings__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="learnings__row-content">
-              <h3 class="learnings__row-content-title">企業コーポレートサイトの模写</h3>
-              <p class="learnings__row-content-desc">
-                書籍を元に、フルスクリーン、２・３カラム、タイル型レイアウトのページ作成に必要な知識について学習。その後、HTML5で企業コーポレートサイトを模写コーディングしました。
-              </p>
-              <p class="learnings__row-content-desc">
-                参考書：１冊で全て身につくHTML＆CSSとWebデザイン入門講座
-              </p>
-              <div class="about__content-skills">
-                <div class="skills">
-                  <div class="skills__skill">HTML</div>
-                  <div class="skills__skill">CSS</div>
-                </div>
-              </div>
-            <!--
-              <a
-                href="./learning-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
-            -->
-            </div>
+      <div class="projects__content">
+        <div class="projects__company-wrapper">
+          <h3 class="projects__company-label">株式会社fed（2024〜現在）</h3>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/logforce.png" alt="フリーランスのパフォーマンスの稼働管理ツール" class="projects__row-img"
+              loading="lazy" />
           </div>
-          <div class="learnings__row">
-            <div class="learnings__row-img-cont">
-              <img
-                src="https://m.media-amazon.com/images/I/61mG7leqETL.jpg"
-                alt="よくわかるPHPの教科書（PHP7対応版）"
-                class="learnings__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="learnings__row-content">
-              <h3 class="learnings__row-content-title">PHPによるMySQLを活用した簡易的な掲示板の作成</h3>
-              <p class="learnings__row-content-desc">
-                教科書を元に、ログイン/ログアウト機能、投稿/返信/削除機能を備えた掲示板を作成した。その後、Dockerコンテナ上でTwitterを模倣したRT機能・いいね！機能を追加で実装しました。
-              </p>
-              <p class="learnings__row-content-desc">
-                参考書：よくわかるPHPの教科書（PHP7対応版）
-              </p>
-              <div class="about__content-skills">
-                <div class="skills">
-                  <div class="skills__skill">PHP</div>
-                  <div class="skills__skill">MySQL</div>
-                  <div class="skills__skill">Docker</div>
-                </div>
-              </div>
-              <!-- <a
-                href="./learning-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              > -->
-            </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title"><a target="_blank">フリーランス稼働管理ツール</a></h3>
+            <p class="projects__row-content-desc">
+              バックエンド開発をメインで担当しました。また、必要に応じ一部フロントエンド開発にも従事しました。
+            </p>
+            <p class="projects__row-content-desc">
+              <strong>開発手法：</strong>スクラム開発（スプリント期間は２週間）<br>
+              PMの方とコミュニケーションを取りながら、タスクを分割し、スプリント期間内に実装を行いました。<br>
+            </p>
+            <ul class="projects__row-content-desc">
+              <li><strong>サービス概要</strong>
+                <ul>
+                  タスク・稼働・請求を一元化し、フリーランスや業務委託の稼働状況をリアルタイムに見える化し、プロジェクト進行をスムーズにし、チーム全体の生産性を最大化するツール。
+                </ul>
+              </li>
+              <li><strong>担当タスク</strong>
+                <p>バックエンド領域を中心に、新機能追加やリファクタリングを担当しました。</p>
+                <!-- <ul>
+                  <li>・パスワードリセット機能の実装</li>
+                  <li>・フロントエンドUIの修正</li>
+                  <li>・DB構成変更に伴うシステムのリファクタリング</li>
+                  <li>・Stripeを用いた課金機能の実装</li>
+                </ul> -->
+                <ul>
+                  <li>パスワードリセット機能の実装
+                    <ul>
+                      <li>ユーザが画面からパスワードを入力し、リセットリンクをAWS SESで送信し、届いたメールのURLからユーザがパスワードをリセットできる仕組みの実装</li>
+                    </ul>
+                  </li>
+                  <li>フロントエンドUIの修正
+                    <ul>
+                      <li>フィルタリング機能の実装</li>
+                    </ul>
+                  </li>
+                  <li>DB構成変更に伴うシステムのリファクタリング
+                    <ul>
+                      <li>複数人で並行開発していたため、不要なコンフリクトを回避する対応を実施</li>
+                      <li>テーブルは即削除せず、残したまま順次修正を適用する方法でリファクタリングを実施</li>
+                    </ul>
+                  </li>
+                  <li>Stripeを用いた課金機能の実装
+                    <ul>
+                      <li>仕様整理・基本設計の一部及び詳細設計から実装までを担当</li>
+                      <li>Stripeのサブスクリプション、メーター課金、商品・顧客管理などの知識習得</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><strong>意識したポイント</strong>
+                <ul>
+                  主体的な立ち回り<br>
+                  仕様が不明確な状況下でも主体的に設計レベルから検討を行いました。AIを活用し仕様書作成や小さな単位でのコードレビュー依頼によって手戻りを最小限に抑えながら開発を推進し、Stripeを用いたサブスクリプション・メーター課金を含む複雑な決済機能をAPI仕様の把握から設計・実装まで一貫して担当しました。カード登録機能の実装ではフロントエンドエンジニアとエンドポイント設計段階から密にコミュニケーションを取り、進捗共有や定期的な動作確認を通じて認識のズレを防ぎ、開発を円滑に進めました。
+
+                </ul>
+              </li>
+            </ul>
+            <p class="projects__row-content-desc">
+              <strong>技術スタック</strong><br>
+              フロントエンド：React（TypeScript、TailwindCSS、Radix UIコンポーネント）<br>
+              バックエンド：Express.js（TypeScript）<br>
+              データベース：PostgreSQL<br>
+              ORM：Drizzle<br>
+              インフラ：Docker, AWS（ECS、Aurora）
+            </p>
           </div>
-          <div class="learnings__row">
-            <div class="learnings__row-img-cont">
-              <img
-                src="https://m.media-amazon.com/images/I/51y4FZePxXL._SY346_.jpg"
-                alt="スッキリわかるSQL入門 第2版"
-                class="learnings__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="learnings__row-content">
-              <h3 class="learnings__row-content-title">Chatworkのシステムを題材にしたDB設計（ER図/DB定義書）</h3>
-              <p class="learnings__row-content-desc">
-                書籍での学習後、Chatworkのシステムを題材にしたDBの設計（ER図及びDB定義書の作成）を行い、MySQLで設計書を元にDBを作成し、実際に動作するSQL文（DML,DDL,TCL）を作成しました。
-              </p>
-              <p class="learnings__row-content-desc">
-                参考書：スッキリわかるSQL入門 第2版
-              </p>
-              <div class="about__content-skills">
-                <div class="skills">
-                  <div class="skills__skill">MySQL</div>
-                </div>
-              </div>
-            <!--
-              <a
-                href="./learning-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
-            -->
-            </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/hitonone.png" alt="使用に基づく追加機能の実装" class="projects__row-img" loading="lazy" />
+            <img src="./assets/png/youken.png" alt="使用に基づく追加機能の実装" class="projects__row-img" loading="lazy" />
           </div>
-          <div class="learnings__row">
-            <div class="learnings__row-img-cont">
-              <img
-                src="https://m.media-amazon.com/images/I/51TXRfvGT0L._SY346_.jpg"
-                alt="動かして学ぶ！Laravel開発入門"
-                class="learnings__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="learnings__row-content">
-              <h3 class="learnings__row-content-title">Laravelによる書籍管理アプリの作成</h3>
-              <p class="learnings__row-content-desc">
-                教科書を元に、認証機能、CRUD機能、バリデーション機能、ページネーション機能、セッションによるフラッシュメッセージ表示機能を実装しました。また、実装の過程でSeederによるテストデータ生成を行いました。
-              </p>
-              <p class="learnings__row-content-desc">
-                参考書：動かして学ぶ！Laravel開発入門、速習 Laravel 6
-              </p>
-              <div class="about__content-skills">
-                <div class="skills">
-                  <div class="skills__skill">PHP</div>
-                  <div class="skills__skill">Laravel</div>
-                  <div class="skills__skill">MySQL</div>
-                  <div class="skills__skill">Docker</div>
-                </div>
-              </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title"><a target="_blank">自治体と民間企業を結ぶ案件マッチングプラットフォーム</a></h3>
+            <!-- 担当範囲の説明 -->
+            <p class="projects__row-content-desc">
+              <!-- TODO: 担当範囲の説明を追記 -->
+            </p>
+            <!-- 開発手法 -->
+            <p class="projects__row-content-desc">
+              <strong>開発手法：</strong>アジャイル開発<br>
+              顧客との1週間ごとのミーティングを通じて要件の確認・調整を行い、優先度に応じてタスクを分割しながら開発を進めました。
+            </p>
+            <ul class="projects__row-content-desc">
+              <li><strong>サービス概要</strong>
+                <ul>
+                  自治体が公開する入札案件・予算情報と、それに応募したい企業をマッチングし、効率的な商談・契約成立をサポートするシステムです。
+                </ul>
+              </li>
+              <li><strong>担当タスク</strong>
+                <p>バックエンド・フロントエンド両領域で、新機能追加やDB設計、リファクタリングを担当しました。</p>
+                <ul>
+                  <li>案件マッチング機能の実装（API・画面）
+                    <ul>
+                      <li>案件と企業をマッチングさせる機能の設計から実装まで担当</li>
+                      <li>バックエンド：一覧取得/作成/編集APIの実装（#70, #71, #72）</li>
+                      <li>フロントエンド：一覧/作成/編集画面の実装（#91, #92, #101）</li>
+                      <li>案件マッチングテーブルの新規設計・マイグレーション作成</li>
+                    </ul>
+                  </li>
+                  <li>案件管理機能のAPI・画面実装
+                    <ul>
+                      <li>案件一覧/作成/編集のAPI実装（#42, #43, #44）</li>
+                      <li>企業権限での案件一覧/作成/編集API・画面の実装（#76, #77, #78, #94, #95, #93）</li>
+                      <li>営業種目カラムの案件テーブルへの追加</li>
+                    </ul>
+                  </li>
+                  <li>企業・予算関連画面の実装
+                    <ul>
+                      <li>企業一覧/詳細/追加/編集ページの実装</li>
+                      <li>企業権限での予算一覧/詳細画面の実装（#103, #104）</li>
+                      <li>閲覧可能な自治体のみ表示するフィルタリング機能の実装</li>
+                    </ul>
+                  </li>
+                  <li>DB構成変更に伴うリファクタリング
+                    <ul>
+                      <li>companyProposalAmountカラムをProjectテーブルからProjectMatchingテーブルに移行</li>
+                      <li>複数人での並行開発のため、マイグレーションの段階的な適用を実施</li>
+                    </ul>
+                  </li>
+                  <li>検索・フィルタリング機能の改善
+                    <ul>
+                      <li>自治体名をひらがなで検索できる機能の追加（#153）</li>
+                      <li>自治体検索フォームの不具合修正（#162）</li>
+                      <li>案件マッチング画面の表示順を作成順に変更（#154）</li>
+                      <li>Enterキーで選択できるようUI改善（#155）</li>
+                    </ul>
+                  </li>
+                  <li>案件ステータスの見直し（#149）
+                    <ul>
+                      <li>ステータス管理の仕様変更に伴う設計・実装</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><strong>意識したポイント</strong>
+                <ul>
+                  <li>フルスタックでの開発推進<br>
+                    バックエンド・フロントエンド両領域を横断的に担当し、API設計から画面実装まで一貫して対応しました。顧客との週次ミーティングで要件を確認しながら、優先度の高い機能から順次リリースを行い、フィードバックを素早く反映しました。
+                  </li>
+                  <li>チーム開発での配慮<br>
+                    複数人での並行開発において、DB構成変更時はマイグレーションを段階的に適用することでコンフリクトを最小限に抑えました。また、検索機能の改善ではユーザー体験を意識し、ひらがな検索やEnterキー対応などの細かいUI改善にも取り組みました。
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p class="projects__row-content-desc">
+              <strong>技術スタック</strong><br>
+              フロントエンド：React（TypeScript、Vite、Tailwind CSS v4、TanStack Query）<br>
+              バックエンド：Express.js 5（TypeScript、Zod）<br>
+              データベース：PostgreSQL（本番: Supabase）<br>
+              ORM：Prisma<br>
+              インフラ：Docker（開発）、AWS（Lambda + API Gateway、S3 + CloudFront、ECR、SES）
+            </p>
             <!-- <a
-                href="./learning-1.html"
+                href="./project-1.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
                 >Case Study</a
               > -->
-            </div>
           </div>
-          <div class="learnings__row">
-            <div class="learnings__row-img-cont">
-              <img
-                src="https://m.media-amazon.com/images/I/51nO-PdlkGL._SY346_.jpg"
-                alt="ネットワークがよくわかる教科書"
-                class="learnings__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="learnings__row-content">
-              <h3 class="learnings__row-content-title">ネットワークについて</h3>
-              <p class="learnings__row-content-desc">
-                ネットワークについての基礎を学習し、TCP/IPやセキュリティ・暗号化に関する知識を身につけました。
-              </p>
-              <p class="learnings__row-content-desc">
-                参考書：ネットワークがよくわかる教科書
-              </p>
-              <!-- <a
-                href="./learning-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a> -->
+        </div>
+        <div class="projects__company-wrapper">
+          <h3 class="projects__company-label">playland株式会社（2023〜2025）</h3>
+        </div>
+        <div class="projects__row projects__row--centered">
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title"><a target="_blank">地域野球紹介アプリの開発</a></h3>
+            <ul class="projects__row-content-desc">
+              <li><strong>サービス概要</strong>
+                <ul>
+                  <li>野球が盛んなまち「球都桐生」の野球チームや選手情報、試合情報、球場情報を一元管理するアプリケーション</li>
+                </ul>
+              </li>
+              <li><strong>担当タスク</strong>
+                <p>CMS側とアプリケーション側の両方を担当し、新機能の追加を中心に開発</p>
+                <ul>
+                  <li>WordPressのAPIを利用した外部サイトからの関連記事表示機能の実装
+                    <ul>
+                      <li>WordPressのAPIを活用し、特定チームに関連する記事をタグでフィルタリングして取得するロジックの実装</li>
+                    </ul>
+                  </li>
+                  <li>記事一覧のページネーション機能</li>
+                  <li>タブ間のスワイプ移動機能の実装</li>
+                  <li>動的OGP生成機能及びSNSシェア機能の実装</li>
+                </ul>
+              </li>
+              <li><strong>意識したポイント</strong>
+                <ul>
+                  <li>WordPress APIを活用した外部記事の自動取得・表示機能の実装や、タブ間スワイプ操作・動的OGP設定などユーザー体験の向上に注力し、アプリの利便性と拡散性向上に貢献しました。</li>
+                </ul>
+              </li>
+            </ul>
+            <p class="projects__row-content-desc">
+              <strong>技術スタック</strong><br>
+              フロントエンド：JavaScript<br>
+              バックエンド：Ruby on Rails<br>
+              インフラ：Docker, AWS
+            </p>
+          </div>
+        </div>
+        <div class="projects__row projects__row--centered">
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title"><a target="_blank">草野球チーム管理ツールの開発</a></h3>
+            <ul class="projects__row-content-desc">
+              <li><strong>サービス概要</strong>
+                <ul>
+                  <li>草野球チームの管理ツールで、選手の出欠管理や試合日程の共有、成績管理ができるアプリケーション</li>
+                </ul>
+              </li>
+              <li><strong>担当タスク</strong>
+                <p>新規機能の開発から運用・保守を担当し、ユーザー要望に基づいた機能改善や調査を行う</p>
+                <ul>
+                  <li>新機能及び既存機能の調査
+                    <ul>
+                      <li>ユーザーからの問い合わせに対する調査及び修正</li>
+                      <li>メンバーが脱退や削除された場合の動作に伴うデータ削除の確認を行い、ユーザーからの問い合わせに対する調査を実施</li>
+                    </ul>
+                  </li>
+                  <li>表示ロジックの変更
+                    <ul>
+                      <li>TOP画面に表示される「オススメチーム」のロジックを、試合数の多いチームから活動拠点が近いチームをランダムに表示する仕様へと変更</li>
+                    </ul>
+                  </li>
+                  <li>メール通知機能の実装
+                    <ul>
+                      <li>アプリケーション内のチャット機能と連携した通知機能の実装</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><strong>意識したポイント</strong>
+                <ul>
+                  <li>
+                    リーグ戦管理機能やチーム推薦機能の改善調査を行い、近隣チームを見つけやすくする「オススメチーム」表示ロジックの最適化や、問い合わせ通知のメール対応などを実装しました。また、メンバー脱退時の投稿・情報削除に関する改善提案を行い、混乱や問い合わせを削減。これらによりユーザー体験と運用体制を強化し、安定したサービス提供に貢献しました。
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p class="projects__row-content-desc">
+              <strong>技術スタック</strong><br>
+              フロントエンド：JavaScript<br>
+              バックエンド：Ruby on Rails<br>
+              インフラ：Docker, AWS
+            </p>
+          </div>
+        </div>
+        <div class="projects__row projects__row--centered">
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title"><a target="_blank">スポーツ試合日程検索アプリ</a></h3>
+            <ul class="projects__row-content-desc">
+              <li><strong>サービス概要</strong>
+                <ul>
+                  <li>全国のスポーツ試合のスケジュールを一覧で提供するアプリケーション</li>
+                </ul>
+              </li>
+              <li><strong>担当タスク</strong>
+                <p>パフォーマンス改善やSEO対策</p>
+                <ul>
+                  <li>Google Search Consoleを活用したインデックス最適化</li>
+                  <li>Sitemapの自動生成及びGoogle Search Consoleに登録する処理の実装</li>
+                  <li>Search Indexing APIの導入</li>
+                  <li>Lighthouse指摘対応</li>
+                </ul>
+              </li>
+              <li><strong>意識したポイント</strong>
+                <ul>
+                  <li>
+                    検索流入を増やし、ページ表示速度を改善するSEO・パフォーマンス施策に最も力を入れました。具体的には、Metaタグの動的生成やURL最適化、サイトマップの修正、画像最適化などを実施し、検索エンジンからの評価向上とユーザー体験改善を実現しました。
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p class="projects__row-content-desc">
+              <strong>技術スタック</strong><br>
+              フロントエンド：JavaScript<br>
+              バックエンド：Ruby on Rails<br>
+              インフラ：Docker, AWS
+            </p>
+          </div>
+        </div>
+        <!-- <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/project-mockup-team1.png" alt="タスク管理システムへの機能追加（チーム開発）" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title"><a target="_blank">既存のシステムへの追加機能の検討/実装（チーム開発）</a></h3>
+            <p class="projects__row-content-desc">
+              既存のプロジェクト/タスク管理サービスに対して追加すべき機能をチームで話し合い、タスクを割り振り、実装を行いました。
+            </p>
+            <p class="projects__row-content-desc">
+              ワークフローには<strong>git-flow</strong>を採用し、マージ前にはプルリクエストから相互レビューを実施しました。
+            </p>
+            <ul class="projects__row-content-desc">
+              <li><strong>実装を担当したタスク</strong>
+                <ul>
+                  <li>・ダッシュボードにログインユーザーの担当タスク一覧を表示する機能</li>
+                </ul>
+              </li>
+              <li><strong>レビューを担当したタスク</strong>
+                <ul>
+                  <li>・課題作成/編集画面における入力項目の追加作業</li>
+                </ul>
+              </li>
+              <li><strong>意識したポイント</strong>
+                <ul>
+                  <il>・実装でのプルリクエストの際はデシジョンテーブル及び同値分割・境界値分析によるテストを実施した。
+              </li>
+              <li>・レビューの際、入力値に対するチェックが必要だったため、同値分割・境界値分析によるテストを行った。</li>
+            </ul>
+            </li>
+            </ul>
+            <div class="about__content-skills">
+              <div class="skills">
+                <div class="skills__skill">Laravel</div>
+                <div class="skills__skill">MySQL</div>
+                <div class="skills__skill">Docker</div>
               </div>
-          </div>
-          <div class="learnings__row">
-            <div class="learnings__row-img-cont">
-              <img
-                src="https://images-na.ssl-images-amazon.com/images/I/51XKtp0hjmL._SX431_BO1,204,203,200_.jpg"
-                alt="いちばんやさしいGit&GitHubの教本 人気講師が教えるバージョン管理&共有入門 (「いちばんやさしい教本」シリーズ)"
-                class="learnings__row-img"
-                loading="lazy"
-              />
             </div>
-            <div class="learnings__row-content">
-              <h3 class="learnings__row-content-title">Git・GitHubについて</h3>
-              <p class="learnings__row-content-desc">
-                Git・GutHubのリポジトリの作成・共有、ブランチによる並行作業をコマンドラインを用いて操作する方法について学習しました。
-              </p>
-              <p class="learnings__row-content-desc">
-                参考書：いちばんやさしいGit&GitHubの教本 人気講師が教えるバージョン管理&共有入門 (「いちばんやさしい教本」シリーズ)
-              </p>
-              <div class="about__content-skills">
-                <div class="skills">
-                  <div class="skills__skill">Git</div>
-                  <div class="skills__skill">GitHub</div>
-                </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+  <section id="career" class="career sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">Career</span>
+      </h2>
+      <div class="career__goals">
+        <h3 class="career__goals-title">キャリア目標</h3>
+        <p class="career__text">
+          私の3〜5年後のキャリア上の目標は、プロダクトの課題が自分の専門領域外であっても果敢に取り組み、解決に導くことができるエンジニアになることです。例えば、プロダクトの動きが重い際に「自分はバックエンドエンジニアだから」と言い訳せず、インフラの問題に対しても積極的に取り組む姿勢を持ちたいと考えています。さまざまな領域の課題に向き合い、これらを解決する過程で結果としてフルスタックエンジニアのような状態になりたいと思います。
+        </p>
+        <p class="career__text">
+          また、単にコードを書くことに留まらず、お客様やビジネスサイドが本当に求めるものを理解し、設計から開発まで一貫して行えるエンジニアになり、プロダクトの品質を向上させるだけでなく、ユーザーのニーズを反映させることができるようになりたいと考えています。エンジニアとして成長し、将来的にはチームにとっても会社にとっても欠かせない技術者に成長していきたいです。
+        </p>
+      </div>
+      <div class="career__values">
+        <h3 class="career__values-title">自分の中で大切にしているもの</h3>
+        <ul class="career__values-list">
+          <li>カルチャーが合うか
+            <ul>
+              <li>HRT（Humility / Respect / Trust 謙虚さ・尊敬・信頼）</li>
+              <li>会社・プロダクトのビジョンに共感できるか</li>
+            </ul>
+          </li>
+          <li>キャリアが築けるか
+            <ul>
+              <li>3年は技術力を伸ばしたい
+                <ul>
+                  <li>Ruby、TypeScriptなどの技術スタックを深めたい</li>
+                  <li>テックリードクラスの方がいる</li>
+                  <li>バックエンド軸で、インフラ・フロントも挑戦したい</li>
+                </ul>
+              </li>
+              <li>チームを作る立場に挑戦したい
+                <ul>
+                  <li>2〜3名規模の開発チームリーダーに挑戦したい</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>働き方が合うか
+            <ul>
+              <li>長く働けそうか（エンジニアチームの雰囲気）</li>
+              <li>ビジネス側と連携し、提案などを行えるか</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="output" class="output sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">learnings</span>
+        <span class="heading-sec__sub">
+          業務外で行っている学習を整理してみました。
+        </span>
+      </h2>
+      <div class="output__content">
+        <div class="output__item">
+          <h3 class="output__item-title">コーディング勉強会</h3>
+          <p class="output__item-desc">
+            <a href="https://www.swe.or.jp/"
+              target="_blank">ソフトウェアエンジニアリング協会</a>というコミュニティのコーディング勉強会に参加し、LeetCodeを用いてアルゴリズムとデータ構造の学習に取り組んでいます。
+          </p>
+          <div class="output__item-tags">
+            <span class="output__item-tag">アルゴリズム</span>
+            <span class="output__item-tag">データ構造</span>
+            <span class="output__item-tag">LeetCode</span>
+          </div>
+          <a href="https://github.com/DaisukeKikukawa/LeetCode_arai60" target="_blank" class="output__item-link">GitHub
+            リポジトリ</a>
+        </div>
+        <div class="output__item">
+          <h3 class="output__item-title">PrAha Challenge</h3>
+          <p class="output__item-desc">
+            <a href="https://praha-challenge.com/" target="_blank">PrAha
+              Challenge</a>というプログラミングブートキャンプに参加し、エンジニアとしてのスキル向上に励んでいます。
+          </p>
+          <p class="output__item-desc">
+            学習分野：データベース設計 / テスト / アーキテクチャ設計 / SQL / フロントエンド / Webの基礎 / 開発手法 / クラウドインフラ / サービス運用
+          </p>
+          <a href="https://github.com/DaisukeKikukawa/Praha-Challenge" target="_blank" class="output__item-link">GitHub
+            リポジトリ</a>
+        </div>
+        <!-- TODO: その他のアウトプット内容を追記 -->
+        <!--
+        想定コンテンツ:
+        - Qiita記事
+        - Zenn記事
+        - はてなブログ
+        - 登壇・LT
+        -->
+      </div>
+    </div>
+  </section>
+  <!-- <section id="learnings" class="learnings sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Learnings</span>
+        <span class="heading-sec__sub">
+          業務外で行っている学習を整理してみました。
+        </span>
+      </h2>
+
+      <div class="learnings__content">
+        <div class="learnings__row">
+          <div class="learnings__row-img-cont">
+            <img src="https://m.media-amazon.com/images/I/41a8QSuhu7L.jpg" alt="1冊ですべて身につくHTML ＆ CSSとWebデザイン入門講座"
+              class="learnings__row-img" loading="lazy" />
+          </div>
+          <div class="learnings__row-content">
+            <h3 class="learnings__row-content-title">企業コーポレートサイトの模写</h3>
+            <p class="learnings__row-content-desc">
+              書籍を元に、フルスクリーン、２・３カラム、タイル型レイアウトのページ作成に必要な知識について学習。その後、HTML5で企業コーポレートサイトを模写コーディングしました。
+            </p>
+            <p class="learnings__row-content-desc">
+              参考書：１冊で全て身につくHTML＆CSSとWebデザイン入門講座
+            </p>
+            <div class="about__content-skills">
+              <div class="skills">
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
               </div>
-              <!-- <a
-                href="./learning-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              > -->
             </div>
           </div>
-          <div class="learnings__row">
-            <div class="learnings__row-img-cont">
-              <img
-                src="https://m.media-amazon.com/images/I/51tDpXBLD7L.jpg"
-                alt="改訂新版JavaScript本格入門 ～モダンスタイルによる基礎から現場での応用まで"
-                class="learnings__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="learnings__row-content">
-              <h3 class="learnings__row-content-title">JavaScriptについて</h3>
-              <p class="learnings__row-content-desc">
-                JavaScript（EC2015）の基礎を学習し、DOM操作や非同期通信を身につけ、jQueryの使い方についても学習しました。
-              </p>
-              <p class="learnings__row-content-desc">
-                参考書等：改訂新版JavaScript本格入門 ～モダンスタイルによる基礎から現場での応用まで、本当によくわかるJavaScriptの教科書、jQuery入門 2020（動画）
-              </p>
-              <div class="about__content-skills">
-                <div class="skills">
-                  <div class="skills__skill">JavaScript</div>
-                </div>
+        </div>
+        <div class="learnings__row">
+          <div class="learnings__row-img-cont">
+            <img src="https://m.media-amazon.com/images/I/61mG7leqETL.jpg" alt="よくわかるPHPの教科書（PHP7対応版）"
+              class="learnings__row-img" loading="lazy" />
+          </div>
+          <div class="learnings__row-content">
+            <h3 class="learnings__row-content-title">PHPによるMySQLを活用した簡易的な掲示板の作成</h3>
+            <p class="learnings__row-content-desc">
+              教科書を元に、ログイン/ログアウト機能、投稿/返信/削除機能を備えた掲示板を作成した。その後、Dockerコンテナ上でTwitterを模倣したRT機能・いいね！機能を追加で実装しました。
+            </p>
+            <p class="learnings__row-content-desc">
+              参考書：よくわかるPHPの教科書（PHP7対応版）
+            </p>
+            <div class="about__content-skills">
+              <div class="skills">
+                <div class="skills__skill">PHP</div>
+                <div class="skills__skill">MySQL</div>
+                <div class="skills__skill">Docker</div>
               </div>
-              <!-- <a
-                href="./learning-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              > -->
             </div>
           </div>
-          <div class="learnings__row">
-            <div class="learnings__row-img-cont">
-              <img
-                src="https://images-na.ssl-images-amazon.com/images/I/513hw-04L8L._SX391_BO1,204,203,200_.jpg"
-                alt="体系的に学ぶ 安全なWebアプリケーションの作り方 第2版 脆弱性が生まれる原理と対策の実践"
-                class="learnings__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="learnings__row-content">
-              <h3 class="learnings__row-content-title">セキュリティについて</h3>
-              <p class="learnings__row-content-desc">
-                セキュリティについての基礎を学習し、発生しやすい脆弱性パターンの原理、その脆弱性をついた攻撃手法、攻撃への対策についての知識を身につけました。
-              </p>
-              <p class="learnings__row-content-desc">
-                参考書：体系的に学ぶ 安全なWebアプリケーションの作り方 第2版 脆弱性が生まれる原理と対策の実践、Web担当者のためのセキュリティの教科書
-              </p>
-              <!-- <a
-                href="./learning-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              > -->
-            </div>
+        </div>
+        <div class="learnings__row">
+          <div class="learnings__row-img-cont">
+            <img src="https://m.media-amazon.com/images/I/51y4FZePxXL._SY346_.jpg" alt="スッキリわかるSQL入門 第2版"
+              class="learnings__row-img" loading="lazy" />
           </div>
-          <div class="learnings__row">
-            <div class="learnings__row-img-cont">
-              <img
-                src="https://m.media-amazon.com/images/I/51YXH-6HUzL.jpg"
-                alt="知識ゼロから学ぶソフトウェアテスト 【改訂版】"
-                class="learnings__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="learnings__row-content">
-              <h3 class="learnings__row-content-title">ソフトウェアテストについて</h3>
-              <p class="learnings__row-content-desc">
-                ソフトウェアテストについての基礎を学ぶとともに、同値分割方と境界値分析、デシジョンテーブルと状態遷移図テストの作成手法の基本を身につけました。
-              </p>
-              <p class="learnings__row-content-desc">
-                参考書：知識ゼロから学ぶソフトウェアテスト 【改訂版】、ソフトウェアテスト技法練習帳 ～知識を経験に変える40問～
-              </p>
-              <!-- <a
-                href="./learning-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              > -->
-            </div>
-          </div>
-          <div class="learnings__row">
-            <div class="learnings__row-img-cont">
-              <img
-                src="https://m.media-amazon.com/images/I/51Ws-prsuWL._SX260_.jpg"
-                alt="AWSではじめるLinux入門ガイド"
-                class="learnings__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="learnings__row-content">
-              <h3 class="learnings__row-content-title">サーバー/AWSについて</h3>
-              <p class="learnings__row-content-desc">
-                サーバー構築についての基礎を学習し、LAMP環境（Linux(CentOS), Apache, MariaDB, PHP）の構築に関わる知識を身につけました。
-                また、AWSの基本的なサービス（EC2, S3, VPC等）について学ぶとともに、AWS上でサーバーを構築する手法を学びました。
-              </p>
-              <p class="learnings__row-content-desc">
-                参考書等：ゼロからはじめるLinuxサーバー構築・運用ガイド 動かしながら学ぶWebサーバーの作り方、AWSではじめるLinux入門ガイド、AWS公式ハンズオン
-              </p>
-              <div class="about__content-skills">
-                <div class="skills">
-                  <div class="skills__skill">CentOS</div>
-                  <div class="skills__skill">AWS</div>
-                </div>
-                <div class="skills">
-                  <div class="skills__skill">EC2</div>
-                  <div class="skills__skill">S3</div>
-                  <div class="skills__skill">VPC</div>
-                </div>
+          <div class="learnings__row-content">
+            <h3 class="learnings__row-content-title">Chatworkのシステムを題材にしたDB設計（ER図/DB定義書）</h3>
+            <p class="learnings__row-content-desc">
+              書籍での学習後、Chatworkのシステムを題材にしたDBの設計（ER図及びDB定義書の作成）を行い、MySQLで設計書を元にDBを作成し、実際に動作するSQL文（DML,DDL,TCL）を作成しました。
+            </p>
+            <p class="learnings__row-content-desc">
+              参考書：スッキリわかるSQL入門 第2版
+            </p>
+            <div class="about__content-skills">
+              <div class="skills">
+                <div class="skills__skill">MySQL</div>
               </div>
-              <!-- <a
-                href="./learning-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              > -->
             </div>
           </div>
-          <div class="learnings__row">
-            <div class="learnings__row-img-cont">
-              <img
-                src="https://images-na.ssl-images-amazon.com/images/I/51MgH8Jmr3L.jpg"
-                alt="リーダブルコード ―より良いコードを書くためのシンプルで実践的なテクニック"
-                class="learnings__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="learnings__row-content">
-              <h3 class="learnings__row-content-title">コーディングについて</h3>
-              <p class="learnings__row-content-desc">
-                参考書を元に、分かりやすく美しいコードとは何かについて学びながら日々実践中です。
-              </p>
-              <p class="learnings__row-content-desc">
-                参考書：リーダブルコード ―より良いコードを書くためのシンプルで実践的なテクニック
-              </p>
-              <div class="about__content-skills">
-                <div class="skills">
-                </div>
+        </div>
+        <div class="learnings__row">
+          <div class="learnings__row-img-cont">
+            <img src="https://m.media-amazon.com/images/I/51TXRfvGT0L._SY346_.jpg" alt="動かして学ぶ！Laravel開発入門"
+              class="learnings__row-img" loading="lazy" />
+          </div>
+          <div class="learnings__row-content">
+            <h3 class="learnings__row-content-title">Laravelによる書籍管理アプリの作成</h3>
+            <p class="learnings__row-content-desc">
+              教科書を元に、認証機能、CRUD機能、バリデーション機能、ページネーション機能、セッションによるフラッシュメッセージ表示機能を実装しました。また、実装の過程でSeederによるテストデータ生成を行いました。
+            </p>
+            <p class="learnings__row-content-desc">
+              参考書：動かして学ぶ！Laravel開発入門、速習 Laravel 6
+            </p>
+            <div class="about__content-skills">
+              <div class="skills">
+                <div class="skills__skill">PHP</div>
+                <div class="skills__skill">Laravel</div>
+                <div class="skills__skill">MySQL</div>
+                <div class="skills__skill">Docker</div>
               </div>
-              <!-- <a
-                href="./learning-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              > -->
             </div>
           </div>
-          <div class="learnings__row">
-            <div class="learnings__row-img-cont">
-              <img
-                src="https://images-na.ssl-images-amazon.com/images/I/514Mfb930CL._SX386_BO1,204,203,200_.jpg"
-                alt="仕組みと使い方がわかる Docker&Kubernetesのきほんのきほん"
-                class="learnings__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="learnings__row-content">
-              <h3 class="learnings__row-content-title">Dockerについて</h3>
-              <p class="learnings__row-content-desc">
-                Compassのハンズオンイベントに参加し、Laravel9環境の構築を実践しました。しかし、まだまだ知識不足のため、現在参考書を用いて学習中です。
-              </p>
-              <p class="learnings__row-content-desc">
-                参考書：仕組みと使い方がわかる Docker&Kubernetesのきほんのきほん
-              </p>
-              <div class="about__content-skills">
-                <div class="skills">
-                  <div class="skills__skill">Docker</div>
-                </div>
+        </div>
+        <div class="learnings__row">
+          <div class="learnings__row-img-cont">
+            <img src="https://m.media-amazon.com/images/I/51nO-PdlkGL._SY346_.jpg" alt="ネットワークがよくわかる教科書"
+              class="learnings__row-img" loading="lazy" />
+          </div>
+          <div class="learnings__row-content">
+            <h3 class="learnings__row-content-title">ネットワークについて</h3>
+            <p class="learnings__row-content-desc">
+              ネットワークについての基礎を学習し、TCP/IPやセキュリティ・暗号化に関する知識を身につけました。
+            </p>
+            <p class="learnings__row-content-desc">
+              参考書：ネットワークがよくわかる教科書
+            </p>
+          </div>
+        </div>
+        <div class="learnings__row">
+          <div class="learnings__row-img-cont">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51XKtp0hjmL._SX431_BO1,204,203,200_.jpg"
+              alt="いちばんやさしいGit&GitHubの教本 人気講師が教えるバージョン管理&共有入門 (「いちばんやさしい教本」シリーズ)" class="learnings__row-img"
+              loading="lazy" />
+          </div>
+          <div class="learnings__row-content">
+            <h3 class="learnings__row-content-title">Git・GitHubについて</h3>
+            <p class="learnings__row-content-desc">
+              Git・GutHubのリポジトリの作成・共有、ブランチによる並行作業をコマンドラインを用いて操作する方法について学習しました。
+            </p>
+            <p class="learnings__row-content-desc">
+              参考書：いちばんやさしいGit&GitHubの教本 人気講師が教えるバージョン管理&共有入門 (「いちばんやさしい教本」シリーズ)
+            </p>
+            <div class="about__content-skills">
+              <div class="skills">
+                <div class="skills__skill">Git</div>
+                <div class="skills__skill">GitHub</div>
               </div>
-              <!-- <a
-                href="./learning-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              > -->
+            </div>
+          </div>
+        </div>
+        <div class="learnings__row">
+          <div class="learnings__row-img-cont">
+            <img src="https://m.media-amazon.com/images/I/51tDpXBLD7L.jpg"
+              alt="改訂新版JavaScript本格入門 ～モダンスタイルによる基礎から現場での応用まで" class="learnings__row-img" loading="lazy" />
+          </div>
+          <div class="learnings__row-content">
+            <h3 class="learnings__row-content-title">JavaScriptについて</h3>
+            <p class="learnings__row-content-desc">
+              JavaScript（EC2015）の基礎を学習し、DOM操作や非同期通信を身につけ、jQueryの使い方についても学習しました。
+            </p>
+            <p class="learnings__row-content-desc">
+              参考書等：改訂新版JavaScript本格入門 ～モダンスタイルによる基礎から現場での応用まで、本当によくわかるJavaScriptの教科書、jQuery入門 2020（動画）
+            </p>
+            <div class="about__content-skills">
+              <div class="skills">
+                <div class="skills__skill">JavaScript</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="learnings__row">
+          <div class="learnings__row-img-cont">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/513hw-04L8L._SX391_BO1,204,203,200_.jpg"
+              alt="体系的に学ぶ 安全なWebアプリケーションの作り方 第2版 脆弱性が生まれる原理と対策の実践" class="learnings__row-img" loading="lazy" />
+          </div>
+          <div class="learnings__row-content">
+            <h3 class="learnings__row-content-title">セキュリティについて</h3>
+            <p class="learnings__row-content-desc">
+              セキュリティについての基礎を学習し、発生しやすい脆弱性パターンの原理、その脆弱性をついた攻撃手法、攻撃への対策についての知識を身につけました。
+            </p>
+            <p class="learnings__row-content-desc">
+              参考書：体系的に学ぶ 安全なWebアプリケーションの作り方 第2版 脆弱性が生まれる原理と対策の実践、Web担当者のためのセキュリティの教科書
+            </p>
+          </div>
+        </div>
+        <div class="learnings__row">
+          <div class="learnings__row-img-cont">
+            <img src="https://m.media-amazon.com/images/I/51YXH-6HUzL.jpg" alt="知識ゼロから学ぶソフトウェアテスト 【改訂版】"
+              class="learnings__row-img" loading="lazy" />
+          </div>
+          <div class="learnings__row-content">
+            <h3 class="learnings__row-content-title">ソフトウェアテストについて</h3>
+            <p class="learnings__row-content-desc">
+              ソフトウェアテストについての基礎を学ぶとともに、同値分割方と境界値分析、デシジョンテーブルと状態遷移図テストの作成手法の基本を身につけました。
+            </p>
+            <p class="learnings__row-content-desc">
+              参考書：知識ゼロから学ぶソフトウェアテスト 【改訂版】、ソフトウェアテスト技法練習帳 ～知識を経験に変える40問～
+            </p>
+          </div>
+        </div>
+        <div class="learnings__row">
+          <div class="learnings__row-img-cont">
+            <img src="https://m.media-amazon.com/images/I/51Ws-prsuWL._SX260_.jpg" alt="AWSではじめるLinux入門ガイド"
+              class="learnings__row-img" loading="lazy" />
+          </div>
+          <div class="learnings__row-content">
+            <h3 class="learnings__row-content-title">サーバー/AWSについて</h3>
+            <p class="learnings__row-content-desc">
+              サーバー構築についての基礎を学習し、LAMP環境（Linux(CentOS), Apache, MariaDB, PHP）の構築に関わる知識を身につけました。
+              また、AWSの基本的なサービス（EC2, S3, VPC等）について学ぶとともに、AWS上でサーバーを構築する手法を学びました。
+            </p>
+            <p class="learnings__row-content-desc">
+              参考書等：ゼロからはじめるLinuxサーバー構築・運用ガイド 動かしながら学ぶWebサーバーの作り方、AWSではじめるLinux入門ガイド、AWS公式ハンズオン
+            </p>
+            <div class="about__content-skills">
+              <div class="skills">
+                <div class="skills__skill">CentOS</div>
+                <div class="skills__skill">AWS</div>
+              </div>
+              <div class="skills">
+                <div class="skills__skill">EC2</div>
+                <div class="skills__skill">S3</div>
+                <div class="skills__skill">VPC</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="learnings__row">
+          <div class="learnings__row-img-cont">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51MgH8Jmr3L.jpg"
+              alt="リーダブルコード ―より良いコードを書くためのシンプルで実践的なテクニック" class="learnings__row-img" loading="lazy" />
+          </div>
+          <div class="learnings__row-content">
+            <h3 class="learnings__row-content-title">コーディングについて</h3>
+            <p class="learnings__row-content-desc">
+              参考書を元に、分かりやすく美しいコードとは何かについて学びながら日々実践中です。
+            </p>
+            <p class="learnings__row-content-desc">
+              参考書：リーダブルコード ―より良いコードを書くためのシンプルで実践的なテクニック
+            </p>
+            <div class="about__content-skills">
+              <div class="skills">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="learnings__row">
+          <div class="learnings__row-img-cont">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/514Mfb930CL._SX386_BO1,204,203,200_.jpg"
+              alt="仕組みと使い方がわかる Docker&Kubernetesのきほんのきほん" class="learnings__row-img" loading="lazy" />
+          </div>
+          <div class="learnings__row-content">
+            <h3 class="learnings__row-content-title">Dockerについて</h3>
+            <p class="learnings__row-content-desc">
+              Compassのハンズオンイベントに参加し、Laravel9環境の構築を実践しました。しかし、まだまだ知識不足のため、現在参考書を用いて学習中です。
+            </p>
+            <p class="learnings__row-content-desc">
+              参考書：仕組みと使い方がわかる Docker&Kubernetesのきほんのきほん
+            </p>
+            <div class="about__content-skills">
+              <div class="skills">
+                <div class="skills__skill">Docker</div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- <section id="contact" class="contact sec-pad dynamicBg">
+    </div>
+  </section> -->
+  <!-- <section id="contact" class="contact sec-pad dynamicBg">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
@@ -811,14 +964,14 @@
         </div>
       </div>
     </section> -->
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <!-- <span>Social</span> -->
-            </h2>
-            <!-- <div class="main-footer__social-cont">
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <!-- <span>Social</span> -->
+          </h2>
+          <!-- <div class="main-footer__social-cont">
               <a target="_blank" rel="noreferrer" href="#">
                 <img
                   class="main-footer__icon"
@@ -848,23 +1001,22 @@
                 />
               </a>
             </div> -->
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Daisuke</h4>
-            <!-- <p class="main-footer__short-desc"></p> -->
-          </div>
         </div>
-
-        <div class="main-footer__lower">
-          &copy; Copyright 2022. Made by
-          <a rel="noreferrer" target="_blank" href="#"
-            >Daisuke</a
-          >
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Daisuke</h4>
+          <!-- <p class="main-footer__short-desc"></p> -->
         </div>
       </div>
-    </footer>
 
-    <script src="./index.js"></script>
-  </body>
+      <div class="main-footer__lower">
+        &copy; Copyright 2022. Made by
+        <a rel="noreferrer" target="_blank" href="#">Daisuke</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+
 </html>
 Footer

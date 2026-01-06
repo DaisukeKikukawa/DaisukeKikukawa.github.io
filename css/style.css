@@ -1524,3 +1524,128 @@ textarea {
     top: 27px;
   }
 }
+
+/* ===== パーティクル背景 ===== */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.home-hero__content,
+.home-hero__socials,
+.home-hero__mouse-scroll-cont {
+  z-index: 1;
+}
+
+/* ===== カスタムカーソル ===== */
+.cursor {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #4c8fed;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease;
+}
+
+.cursor-follower {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid rgba(76, 143, 237, 0.5);
+  position: fixed;
+  pointer-events: none;
+  z-index: 9998;
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease, width 0.3s ease, height 0.3s ease, border-color 0.3s ease;
+}
+
+.cursor-follower.hover {
+  width: 60px;
+  height: 60px;
+  border-color: rgba(76, 143, 237, 0.8);
+}
+
+.cursor.click {
+  transform: translate(-50%, -50%) scale(0.8);
+}
+
+.cursor-follower.click {
+  transform: translate(-50%, -50%) scale(0.8);
+}
+
+/* モバイルではカーソルエフェクトを非表示 */
+@media only screen and (max-width: 56.25em) {
+  .cursor,
+  .cursor-follower {
+    display: none;
+  }
+}
+
+/* ===== スキルバーアニメーション ===== */
+.skill-bar {
+  margin-bottom: 2rem;
+}
+
+.skill-bar__info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+.skill-bar__name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.skill-bar__percentage {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #4c8fed;
+}
+
+.skill-bar__container {
+  width: 100%;
+  height: 10px;
+  background: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill-bar__fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4c8fed, #0077b5);
+  border-radius: 5px;
+  width: 0;
+  transition: width 1.5s ease-out;
+}
+
+.skill-bar__fill.animated {
+  /* width will be set by JS */
+}
+
+/* ===== パララックス効果 ===== */
+.home-hero {
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.parallax-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  background: linear-gradient(to right, rgba(76, 143, 237, 0.8), rgba(76, 143, 237, 0.8)), url(../assets/svg/common-bg.svg);
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  will-change: transform;
+}
